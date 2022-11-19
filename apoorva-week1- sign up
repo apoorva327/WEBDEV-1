@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP FORM</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url("https://cdn.pixabay.com/photo/2016/07/20/00/32/marble-1529415__340.jpg");       
+    }
+    .left{
+        display: inline-block;
+       
+        position:absolute;
+        left: 100px;
+        top: 60px;
+
+    }
+    
+    .navbar{
+        display: inline-block;
+       
+        font-size: 25px;
+       
+    
+    }
+    .navbar li{
+        color: rgb(14, 13, 13);
+        text-decoration: none;
+        padding: 10px 30px;
+    }
+    
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(108, 4, 103);
+    }
+    .btn {
+        font-family: 'https://fonts.google.com/specimen/Alegreya', cursive;
+        margin: 250px 225px;
+        background-color: black;
+        color: white;
+        
+        border: 2px solid rgb(108, 4, 103);
+        border-radius: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: rgb(108, 4, 103);
+    }
+    .container {
+        background-image: url("https://cdn.pixabay.com/photo/2016/03/03/04/47/texture-1233546__340.jpg");
+        border: 2px solid rgb(143, 14, 186);
+        margin: 150px 625px;
+        padding: 30px;
+        width: 30%;
+        height: 600px;
+        border-radius: 28px;
+    }
+    .form-group input {
+        font-family: 'https://fonts.google.com/specimen/Alegreya', cursive;
+        text-align: center;
+        display: block;
+        width: 510px;
+        padding: 1px;
+        border: 2px solid rgb(108, 101, 101);
+        margin: 15px auto;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+
+    h1{text-align: center;}
+    
+    
+
+</style>
+<body>
+    <h1><em>ITRODUCTION SIGN UP FORM</em></h1>
+
+    
+    <header class="header">
+        <div class="left">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">HELP</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>   
+        </div>
+    </header>
+    <div class="container">
+        <h1>FILL THE FORM CAREFULLY!!</h1>
+        <form>
+            <div class="form-group">
+                <input type="text" name="" placeholder="NAME">
+            </div>
+            <div class="form-group">
+                <input type="email"" name="" placeholder="EMAIL ID">
+            </div>
+            <div class="form-group">
+                <input type="password"""" name="" placeholder="PASSWORDD">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ANY HELP OR SUGGESTION?">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
