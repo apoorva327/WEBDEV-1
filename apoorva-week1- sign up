@@ -83,7 +83,7 @@
 
 </style>
 <body>
-    <h1><em>ITRODUCTION SIGN UP FORM</em></h1>
+    <h1><em>INTRODUCTION SIGN UP FORM</em></h1>
 
     
     <header class="header">
@@ -99,17 +99,15 @@
     <div class="container">
         <h1>FILL THE FORM CAREFULLY!!</h1>
         <form>
-            <div class="form-group">
-                <input type="text" name="" placeholder="NAME">
+           <div class="form-group">
+                <input type="text" name="NAME" placeholder="NAME" required>
+
             </div>
             <div class="form-group">
-                <input type="email"" name="" placeholder="EMAIL ID">
+                <input type="email"" name="EMAIL" placeholder="EMAIL ID" required>
             </div>
             <div class="form-group">
-                <input type="password"""" name="" placeholder="PASSWORDD">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="ANY HELP OR SUGGESTION?">
+                <input type="password" name="PASSWORD" placeholder="PASSWORD" required>
             </div>
             <button class="btn">SUBMIT</button>
         </form>
